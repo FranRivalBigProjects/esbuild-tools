@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let e=+es.value,w=+wp.value;if(!e||!w){res.innerText='Enter values';return;}res.innerText=e<w?'ESBuild faster':'Webpack faster';}

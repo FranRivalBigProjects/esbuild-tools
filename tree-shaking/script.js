@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let r=+removed.value,t=+total.value;if(!r||!t){res.innerText='Enter values';return;}res.innerText=`Removed: ${(r/t*100).toFixed(2)}%`; }

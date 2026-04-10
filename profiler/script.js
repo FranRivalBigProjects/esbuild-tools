@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let o=+ops.value,t=+time.value;if(!o||!t){res.innerText='Enter values';return;}res.innerText=`Ops/sec: ${(o/t).toFixed(2)}`;}
